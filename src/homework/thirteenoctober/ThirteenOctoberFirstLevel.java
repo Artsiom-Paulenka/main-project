@@ -9,8 +9,9 @@ public class ThirteenOctoberFirstLevel {
         Scanner sc = new Scanner(System.in);
         int number = sc.nextInt();
         String text = "Я начинаю разбираться с циклами";
-        while (true) {;
-            System.out.println("Я начинаю разбираться с циклами");
+        while (number > 0) {
+             number--;
+             System.out.println(text);
         }
     }
 }
