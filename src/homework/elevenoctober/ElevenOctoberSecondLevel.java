@@ -13,7 +13,17 @@ public class ElevenOctoberSecondLevel {
         //Вывести на экран имя персонажа, к которому сейчас ближе Джон
     int time = sc.nextInt();
     int speed = sc.nextInt();
-    int length = sc.nextInt();
+    int lengthSherlok = sc.nextInt();
+
+    int lengthJony = time * speed;
+    int allLengthToMarry = lengthJony / 2;
+
+    if(allLengthToMarry < lengthSherlok) {
+        System.out.println("Шерлок");}
+    if (allLengthToMarry > lengthSherlok) {
+        System.out.println("Мэри");}
+
+
 
 
     }
