@@ -13,8 +13,7 @@ public class TwentyThreeOctoberLeveOne {
         while (m >= n) {
             if (m % n == 0)
                 System.out.println(n);
-            else
                 n++;
         }
-    }
+           }
 }
