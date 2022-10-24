@@ -8,10 +8,13 @@ public class TwentyThreeOctoberLeveOne {
         // Выведите его наименьший делитель, отличный от 1.
         // (число, на которое введенное число делится без остатка).
         Scanner sc = new Scanner(System.in);
-        int dividend = sc.nextInt();
-        int divisor = 2;
-        for (int i = divisor; i <= dividend; i++) {
-            if (dividend % divisor == 0) ;
-            }System.out.println(divisor);
+        int m = sc.nextInt();
+        int n = 2;
+        while (m >= n) {
+            if (m % n == 0)
+                System.out.println(n);
+            else
+                n++;
+        }
     }
 }
