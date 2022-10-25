@@ -12,8 +12,8 @@ public class TwentyThreeOctoberLeveOne {
         int n = 2;
         while (m >= n) {
             if (m % n == 0)
-                System.out.println(n);
                 n++;
         }
-           }
+        System.out.println(n);
+    }
 }
