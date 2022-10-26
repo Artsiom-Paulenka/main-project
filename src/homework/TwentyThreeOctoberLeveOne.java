@@ -10,9 +10,8 @@ public class TwentyThreeOctoberLeveOne {
         Scanner sc = new Scanner(System.in);
         int m = sc.nextInt();
         int n = 2;
-        while (m >= n) {
-            if (m % n == 0)
-                n++;
+       while (m % n != 0){
+            n++;
         }
         System.out.println(n);
     }
