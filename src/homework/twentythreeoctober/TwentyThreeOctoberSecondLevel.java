@@ -9,11 +9,13 @@ public class TwentyThreeOctoberSecondLevel {
         // Определите, сколько будет на счету через k лет
         Scanner sc = new Scanner(System.in);
         double x = sc.nextInt();//вклад в начале
-        double p = sc.nextInt();// ежегодный процент
+        double p = sc.nextInt();
+        ; // ежегодный процент
         int k = sc.nextInt();// прошло лет
+        p = p / 100;
         for (int i = 1; i < k; i++) {
-           p = (101 + p) / 100;
-            x = x * p;
+
+            x = x + x * p;
         }
         System.out.println(x);
     }
