@@ -1,4 +1,4 @@
-package homework;
+package homework.twentythreeoctober;
 
 import java.util.Scanner;
 
