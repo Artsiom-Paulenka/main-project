@@ -9,13 +9,29 @@ public class TwentyFourLevelSecond {
         Scanner sc = new Scanner(System.in);
         int number = sc.nextInt();
         int sum = 0;
-        while (number != 0) {
-            number = number % 10;
-            sum = sum + number;
+       while (number != 0){
+           sum = sum + number % 10;
+           number /= 10;
+       }System.out.println(sum);
 
+
+
+        //for (int i = 0; i < number; i++) {
+            //sum = sum + number % 10;
+            //number /= 10;
         }
-        System.out.println(sum);
+
 
     }
-}
+
+
+
+
+
+
+
+
+
+
+
 
