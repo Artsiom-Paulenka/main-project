@@ -1,4 +1,4 @@
-package homework.twentythreeoctober;
+package homework.thirtyoctober;
 
 import java.util.Arrays;
 
