@@ -8,10 +8,7 @@ public class thirtyOctoberLevelTwo {
         int sum = 0;
         for (int i = 0; i < 10; i++) {
             array[i] = (i * 111);
-
             sum = sum + array[i];
-
-
         }System.out.println(sum * 10);
     }
 }
